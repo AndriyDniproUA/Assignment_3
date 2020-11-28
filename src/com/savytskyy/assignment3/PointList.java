@@ -11,18 +11,18 @@ public class PointList {
         //points = Arrays.copyOf(points, points.length+1);
         //points[points.length-1] = p;
 
-        points[lastElement] = p;
-        lastElement++;
-
-        if (lastElement == capacity-1) {
+        if (lastElement == capacity) {
             capacity = (int) (capacity *1.5);
             this.arrayResize((int) (capacity));
         }
+
+        points[lastElement] = p;
+        lastElement++;
     }
 
     public void arrayResize (int size) {
         Point[] buffer = new Point[size];
-        for (int i = 0; i <= lastElement; i++) {
+        for (int i = 0; i <= lastElement-1; i++) {
             buffer[i] = points[i];
         }
         points = buffer;

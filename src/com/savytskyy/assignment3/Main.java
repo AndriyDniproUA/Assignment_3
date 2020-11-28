@@ -6,19 +6,19 @@ public class Main {
 
         PointList pointList = new PointList();
         pointList.add(new Point(1,5));
-        pointList.add(new Point(2,6));
-        pointList.add(new Point(2,6));
+        pointList.add(new Point(3,6));
         pointList.add(new Point(4,6));
-        pointList.add(new Point(2,6));
-        pointList.add(new Point(2,6));
-        //pointList.add(new Point(2,6));
-        //pointList.add(new Point(2,6));
-        //pointList.add(new Point(2,6));
-        //pointList.add(new Point(2,6));
-        //pointList.add(new Point(2,6));
-        //pointList.add(new Point(2,6));
-        //pointList.add(new Point(2,6));
-        //pointList.add(new Point(2,6));
+        pointList.add(new Point(4,6));
+        pointList.add(new Point(5,6));
+        pointList.add(new Point(6,6));
+        pointList.add(new Point(7,6));
+        //pointList.add(new Point(8,6));
+        //pointList.add(new Point(9,6));
+        //pointList.add(new Point(10,6));
+        //pointList.add(new Point(11,6));
+        //pointList.add(new Point(12,6));
+        //pointList.add(new Point(13,6));
+        //pointList.add(new Point(14,6));
 
 
 
